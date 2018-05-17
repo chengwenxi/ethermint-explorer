@@ -33,7 +33,7 @@
           :total="list.total">
         </el-pagination>
       </div>
-      <div class="modal " :class="{'model-show':create}">
+      <div class="modal" :class="{'model-show':create}">
         <div class="modal-dialog">
           <div style="margin-bottom: 12px" class="modal-head ">
             {{$t('message.service[0].createList[0]')}}

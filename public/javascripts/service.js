@@ -55,10 +55,12 @@ Service.prototype.defineService = function defineService(wallet, cd, name, desc,
               }
             } else {
               defEvents.stopWatching();
+              console.log(error);
               reject(error);
             }
           });
         } else {
+          console.log(error);
           reject(error);
         }
       });
